@@ -33,7 +33,7 @@ image_bg.onload = function() {
     img_bg.image(image_bg);
     layer_bg.draw();
 };
-image_bg.src = 'https://www.neumerlin.com/NIVEA/raw_file/NEVIA_20151117/300x250/img/bg.jpg';
+image_bg.src = 'https://cdn.rawgit.com/sereepap2029/Nivea_banner_cdn/88b14a94177c1f8389baee771bf8982dea0a49d8/NEVIA_20151117/300x250/img/bg.jpg';
 cream_width=232;
 cream_height=232;
 var cream = new Konva.Image({
@@ -52,7 +52,7 @@ image_cream.onload = function() {
     cream.image(image_cream);
     layer.draw();
 };
-image_cream.src = 'https://www.neumerlin.com/NIVEA/raw_file/NEVIA_20151117/300x250/img/cream.png';
+image_cream.src = 'https://cdn.rawgit.com/sereepap2029/Nivea_banner_cdn/88b14a94177c1f8389baee771bf8982dea0a49d8/NEVIA_20151117/300x250/img/cream.png';
 //make_drag(cream);
 
 var cream1 = new Konva.Image({
@@ -69,7 +69,7 @@ image_cream1.onload = function() {
     cream1.image(image_cream1);
     layer.draw();
 };
-image_cream1.src = 'https://www.neumerlin.com/NIVEA/raw_file/NEVIA_20151117/300x250/img/cream1.png';
+image_cream1.src = 'https://cdn.rawgit.com/sereepap2029/Nivea_banner_cdn/88b14a94177c1f8389baee771bf8982dea0a49d8/NEVIA_20151117/300x250/img/cream1.png';
 //make_drag(cream1);
 
 var cream2 = new Konva.Image({
@@ -86,7 +86,7 @@ image_cream2.onload = function() {
     cream2.image(image_cream2);
     layer.draw();
 };
-image_cream2.src = 'https://www.neumerlin.com/NIVEA/raw_file/NEVIA_20151117/300x250/img/cream2.png';
+image_cream2.src = 'https://cdn.rawgit.com/sereepap2029/Nivea_banner_cdn/88b14a94177c1f8389baee771bf8982dea0a49d8/NEVIA_20151117/300x250/img/cream2.png';
 //make_drag(cream2);
 
 
@@ -104,7 +104,7 @@ image_t1.onload = function() {
     t1.image(image_t1);
     layer.draw();
 };
-image_t1.src = 'https://www.neumerlin.com/NIVEA/raw_file/NEVIA_20151117/300x250/img/t1.png';
+image_t1.src = 'https://cdn.rawgit.com/sereepap2029/Nivea_banner_cdn/88b14a94177c1f8389baee771bf8982dea0a49d8/NEVIA_20151117/300x250/img/t1.png';
 
 var t2 = new Konva.Image({
     x: 70,
@@ -120,7 +120,7 @@ image_t2.onload = function() {
     t2.image(image_t2);
     layer.draw();
 };
-image_t2.src = 'https://www.neumerlin.com/NIVEA/raw_file/NEVIA_20151117/300x250/img/t2.png';
+image_t2.src = 'https://cdn.rawgit.com/sereepap2029/Nivea_banner_cdn/88b14a94177c1f8389baee771bf8982dea0a49d8/NEVIA_20151117/300x250/img/t2.png';
 //make_drag(t2);
 
 var t3 = new Konva.Image({
@@ -137,7 +137,7 @@ image_t3.onload = function() {
     t3.image(image_t3);
     layer.draw();
 };
-image_t3.src = 'https://www.neumerlin.com/NIVEA/raw_file/NEVIA_20151117/300x250/img/t3.png';
+image_t3.src = 'https://cdn.rawgit.com/sereepap2029/Nivea_banner_cdn/88b14a94177c1f8389baee771bf8982dea0a49d8/NEVIA_20151117/300x250/img/t3.png';
 //make_drag(t3);
 
 var t4 = new Konva.Image({
@@ -154,7 +154,7 @@ image_t4.onload = function() {
     t4.image(image_t4);
     layer.draw();
 };
-image_t4.src = 'https://www.neumerlin.com/NIVEA/raw_file/NEVIA_20151117/300x250/img/t4.png';
+image_t4.src = 'https://cdn.rawgit.com/sereepap2029/Nivea_banner_cdn/88b14a94177c1f8389baee771bf8982dea0a49d8/NEVIA_20151117/300x250/img/t4.png';
 //make_drag(t4);
 
 var t5 = new Konva.Image({
@@ -171,7 +171,7 @@ image_t5.onload = function() {
     t5.image(image_t5);
     layer.draw();
 };
-image_t5.src = 'https://www.neumerlin.com/NIVEA/raw_file/NEVIA_20151117/300x250/img/t5.png';
+image_t5.src = 'https://cdn.rawgit.com/sereepap2029/Nivea_banner_cdn/88b14a94177c1f8389baee771bf8982dea0a49d8/NEVIA_20151117/300x250/img/t5.png';
 //make_drag(t5);
 
 var carlen = new Konva.Image({
@@ -188,7 +188,7 @@ image_carlen.onload = function() {
     carlen.image(image_carlen);
     layer.draw();
 };
-image_carlen.src = 'https://www.neumerlin.com/NIVEA/raw_file/NEVIA_20151117/300x250/img/carlendar.png';
+image_carlen.src = 'https://cdn.rawgit.com/sereepap2029/Nivea_banner_cdn/88b14a94177c1f8389baee771bf8982dea0a49d8/NEVIA_20151117/300x250/img/carlendar.png';
 //make_drag(carlen);
  // replay
 
@@ -208,7 +208,7 @@ image_carlen.src = 'https://www.neumerlin.com/NIVEA/raw_file/NEVIA_20151117/300x
         replay.image(replay_obj);
         layer.draw();
     };
-    replay_obj.src = 'https://www.neumerlin.com/NIVEA/raw_file/NEVIA_20151117/300x250/img/replay.png';
+    replay_obj.src = 'https://cdn.rawgit.com/sereepap2029/Nivea_banner_cdn/88b14a94177c1f8389baee771bf8982dea0a49d8/NEVIA_20151117/300x250/img/replay.png';
 
     replay.on('click', function() {
         is_click_botton=true;
@@ -360,7 +360,7 @@ image_logo.onload = function() {
     img_logo.image(image_logo);
     layer.draw();
 };
-image_logo.src = 'https://www.neumerlin.com/NIVEA/raw_file/NEVIA_20151117/300x250/img/logo.png';
+image_logo.src = 'https://cdn.rawgit.com/sereepap2029/Nivea_banner_cdn/88b14a94177c1f8389baee771bf8982dea0a49d8/NEVIA_20151117/300x250/img/logo.png';
 
 stage.add(layer_bg);
 stage.add(layer);
