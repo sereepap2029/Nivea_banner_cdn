@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/html5reset-1.6.1.css" type="text/css" />
+    <script type="text/javascript" src="./js/EBLoader.js"></script>
+    <script src="https://cdn.rawgit.com/konvajs/konva/0.9.5/konva.min.js"></script>
+    <style type="text/css">
+    body {
+        margin: 0px;
+    }
+    
+    #ad {
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    </style>
+    <title>NIVEA Hot Lotion</title>
+    <script type="text/javascript">
+    function initEB() {
+        if (!EB.isInitialized()) {
+            EB.addEventListener(EBG.EventName.EB_INITIALIZED, startAd);
+        } else {
+            startAd();
+        }
+    }
+
+    function startAd() {
+        document.getElementById("container").style.visibility = "visible";
+    }
+
+    function handleBannerClick() {
+        EB.clickthrough();
+    }
+    function handleBannerClick2() {
+        EB.clickthrough("click2");
+    }
+    function handleBannerClick3() {
+        EB.clickthrough("click3");
+    }
+    function handleBannerClick4() {
+        EB.clickthrough("click4");
+    }
+    </script>
+</head>
+
+<body>
+
+    <body onload="initEB();">
+        <div id="ad" onclick="handleBannerClick()">
+            <div id="container" style="border: 1px solid #666666;width:728px">
+            </div>
+        </div>
+    </body>
+    <script src="js/core2.js"></script>
+    <script type="text/javascript">
+    setTimeout(start_pl, 1000);
+    </script>
+
+</html>
